@@ -16,6 +16,8 @@ Dog Breed Details: Access comprehensive information about specific breeds, inclu
 
 Dog Breed Search: Search for specific dog breeds and view results with relevant details in a list or grid format. Sorting and pagination are supported.
 
+Show circular progress while image is being downloaded. 
+
 <b>Modular Architecture:</b>
 
 The app adopts a modular architecture, promoting separation of components for better maintenance and scalability:
