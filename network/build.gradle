@@ -14,7 +14,7 @@ android {
     defaultConfig {
         minSdk 24
         targetSdk 34
-
+        buildConfigField "String", "API_KEY", project.findProperty('API_KEY_DOG_BREED') ?: System.getenv('apiKey')
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }

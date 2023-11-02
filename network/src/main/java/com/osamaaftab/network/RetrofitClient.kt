@@ -17,7 +17,7 @@ import javax.inject.Singleton
 object RetrofitClient {
 
     private val okHttpClient = OkHttpClient.Builder()
-        .addInterceptor(ApiKeyInterceptor("live_zWNkvFjwF4dSIjFOC8AvOICwQphXouFaCbTcTwdkaPtieIMMwzySImKQX6rRMYXU"))
+        .addInterceptor(ApiKeyInterceptor(BuildConfig.API_KEY))
         .build()
 
     @Provides
